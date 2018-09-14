@@ -1,6 +1,6 @@
 # web-home-work4-a
 
-+ View the page on http://dineencoffee.com/coffee.php;
++ View the page on http://dineencoffee.com/index.php;
 + Html and CSS only, make only one static image for index page;
 + The bottom section is menu. Click the item and the page will switch to the corresponding page.
 + When the page swtich and the menu still stick on bottom.
