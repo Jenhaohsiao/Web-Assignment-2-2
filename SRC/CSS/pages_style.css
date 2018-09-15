@@ -1,0 +1,13 @@
+.pages_body {
+    /* background-image: url("./images/pages_background.jpg"); */
+    background-image: url("../images/pages_background.jpg");
+    /* background-color: aquamarine; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-width: 800px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
