@@ -1,37 +1,64 @@
-.pages_body {
-    background-image: url("../images/pages_background.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    position: relative;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    margin: 0;
-}
-
-.pages_rage {
-    width: 855px;
-    height: 1000px;
-    background-color: #ffffff;
-    margin: 0 auto;
-    padding: 52px;
-    opacity: 0.9;
-}
-
-.pages_rage h1 p {
-    margin: 0;
-}
-
-.pages_title {
-    font-size: 50px;
-    margin: 30px 0 0 0;
-    font-weight: 500;
-    float: left;
-}
-
-.pages_title_logo {
-    float: right;
-    margin: 15px 0 0 0;
-    width: 150px;
-}
+    .pages_body {
+        background-image: url("../images/pages_background.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        margin: 0;
+    }
+    
+    .pages_rage {
+        width: 855px;
+        height: 1000px;
+        margin: 0 auto;
+        padding: 52px;
+        background-color: #ffffffa3;
+    }
+    
+    .pages_background {}
+    
+    .pages_rage h1 p {
+        margin: 0;
+    }
+    
+    .pages_title {
+        font-size: 50px;
+        margin: 30px 0 0 0;
+        font-weight: 500;
+        float: left;
+    }
+    
+    .pages_title_logo {
+        float: right;
+        margin: 15px 0 0 0;
+        width: 150px;
+    }
+    
+    .float_clear {
+        clear: both;
+    }
+    
+    .paes_title_text {
+        margin: 16px 0;
+        font-weight: 400;
+        line-height: 160%;
+    }
+    
+    .hero_image_rage {
+        background-color: #b8b8ac;
+        height: 342px;
+        margin: 0 -52px;
+    }
+    
+    #coffee_page_hero {
+        background-image: url("../images/coffee_page_hero.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+        opacity: 1;
+    }
