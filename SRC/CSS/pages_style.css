@@ -12,10 +12,10 @@
     
     .pages_rage {
         width: 855px;
-        height: 1000px;
+        height: auto;
         margin: 0 auto;
         padding: 52px;
-        background-color: #ffffffa3;
+        background-color: #ffffffec;
     }
     
     .pages_background {}
@@ -53,30 +53,43 @@
         margin: 0 -52px;
     }
     
-    #coffee_page_hero {
-        background-image: url("../images/coffee_page_hero.jpg");
+    .page_hero {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: scroll;
         position: relative;
-        opacity: 1;
     }
     
-    .coffee_page_grid_container {
+    #coffee_page_hero {
+        background-image: url("../images/coffee_page_hero.jpg");
+    }
+    
+    #food_page_hero {
+        background-image: url("../images/food_page_hero.jpg");
+    }
+    
+    .page_grid_container {
         display: grid;
         justify-content: space-evenly;
-        grid-template-columns: 33% 34% 33%;
         grid-gap: 0;
     }
     
-    .coffee_page_grid_container>div {
+    .page_grid_container>div {
         text-align: center;
         padding: 20px 0;
         font-size: 30px;
     }
     
-    .coffee_page_grid_item {
+    .grid_3items {
+        grid-template-columns: 33% 34% 33%;
+    }
+    
+    .grid_4items {
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    
+    .page_grid_item {
         margin: 16px;
     }
     
@@ -117,4 +130,45 @@
         background-image: url("../images/coffee_content_iced.jpg");
         background-size: cover;
         background-position: bottom;
+    }
+    
+    #grid_item_bakery {
+        background-image: url("../images/food_content_bakery.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    
+    #grid_item_breakfast {
+        background-image: url("../images/food_content_breakfast.jpg");
+        background-size: cover;
+        background-position: bottom;
+    }
+    
+    #grid_item_sandwiches {
+        background-image: url("../images/food_content_sandwiches.jpg");
+        background-size: cover;
+        background-position: bottom;
+    }
+    
+    #grid_item_charcuterie {
+        background-image: url("../images/food_content_charcuterie.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    
+    #location_table {
+        width: 960px;
+        margin: 0 -52px;
+        padding: 0;
+        border: 0px rgb(140, 0, 0);
+    }
+    
+    #location_table tr td {
+        padding: 0;
+        border: 0px black;
+    }
+    
+    #location_table image {
+        padding: 0;
+        margin: 0;
     }
