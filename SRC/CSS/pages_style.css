@@ -13,12 +13,11 @@
     .pages_rage {
         width: 855px;
         height: auto;
+        min-height: 750px;
         margin: 0 auto;
         padding: 52px;
         background-color: #ffffffec;
     }
-    
-    .pages_background {}
     
     .pages_rage h1 p {
         margin: 0;
@@ -67,6 +66,18 @@
     
     #food_page_hero {
         background-image: url("../images/food_page_hero.jpg");
+    }
+    
+    #about_page_hero {
+        background-image: url("../images/about_page_hero.png");
+    }
+
+    #catering_page_hero {
+        background-image: url("../images/catering_page_hero.png");
+    }
+
+    #events_page_hero {
+        background-image: url("../images/events_page_hero.png");
     }
     
     .page_grid_container {
